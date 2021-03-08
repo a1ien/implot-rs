@@ -6,4 +6,6 @@
 #[cfg(test)]
 use imgui_sys as _;
 
+pub use imgui_sys::*;
+
 include!("bindings.rs");
